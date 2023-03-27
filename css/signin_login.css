@@ -1,0 +1,47 @@
+body ,#head{
+    font-family: 'Montserrat', sans-serif;
+    }
+.form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+
+    width: 200px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #000;
+  }
+  #phone::-webkit-outer-spin-button,
+  #phone::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+ 
+  .form-submit {
+    display: inline-block;
+    background: #6dabe4;
+    color: white;
+    border: none;
+    border-bottom: none;
+    width: auto;
+    padding: 15px 39px;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+  .form-submit:hover{
+    background: #508ec8;
+  }
+  label {
+    float: left;
+  }
+  .c {
+    
+    padding-left: 10%;
+   
+  }
+  #Login,#Signin{color:black;text-decoration: none;
+margin-left: 10%;}
+#Login:hover,#Signin:hover{border-bottom: 1px solid black;}

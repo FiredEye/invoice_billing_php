@@ -1,0 +1,1 @@
+Add email address and  2-factor authentication password in 'company' table.
